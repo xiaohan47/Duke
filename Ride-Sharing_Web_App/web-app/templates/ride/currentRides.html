@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <br/><br/>
+  <h5>Current Rides As Customer
+      <a class="ml-2" href="{% url 'current-rides-customer' %}">Customer Current Rides</a>
+  <br/><br/>
+  <br/><br/>
+  <h5>Current Rides As Driver
+      <a class="ml-2" href="{% url 'current-rides-driver' %}">Driver Current Rides</a>
+{% endblock content %}

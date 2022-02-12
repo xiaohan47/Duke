@@ -1,0 +1,26 @@
+Handled cases:
+- User might be entering some urls manually and tries to enter some pages that the user is not supposed to be visiting
+    - Our solution:
+        - Added role checking in each "protected" view such that users without permission will receive an HTTP 403 forbidden error
+
+- User might save previous URL links and use outdated slugs
+    - Our solution:
+        - used get_object_or_404 method from django to check if instance in db exists before proceeding
+
+- Password expoit after server compromises
+    - Our solution:
+        - UberUser class inherits from built-in django user class, which stores password as hash with salt, so that even hacker takes the server they
+            can not retreive passwords in plain text
+
+Unhandled cases:
+- primary keys are used as url slugs
+    - May expoit backend database structure
+
+- No checking for driver information and email address
+    - Attackers can create accounts with fake information
+
+- Users can not change their passwords
+    - Even they know password was taken by attackers, they can not change their password
+
+- django secret key and email server password are on GitLab
+    - People with permission can see them (we will disable the email account after grades are out)

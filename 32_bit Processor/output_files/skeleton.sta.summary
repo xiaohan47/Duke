@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'frequency_div2:fdr|out_clk'
+Slack : -18.249
+TNS   : -16924.635
+
+Type  : Slow 1200mV 85C Model Setup 'frequency_div:fdp|clk_track'
+Slack : -17.270
+TNS   : -532.320
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -15.182
+TNS   : -613.681
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'frequency_div2:fdr|out_clk'
+Slack : 1.759
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'frequency_div:fdp|clk_track'
+Slack : 1.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -352.844
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'frequency_div2:fdr|out_clk'
+Slack : -1.285
+TNS   : -1274.720
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'frequency_div:fdp|clk_track'
+Slack : -1.285
+TNS   : -41.120
+
+Type  : Slow 1200mV 0C Model Setup 'frequency_div2:fdr|out_clk'
+Slack : -16.717
+TNS   : -15477.671
+
+Type  : Slow 1200mV 0C Model Setup 'frequency_div:fdp|clk_track'
+Slack : -15.828
+TNS   : -487.874
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -14.003
+TNS   : -554.206
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'frequency_div2:fdr|out_clk'
+Slack : 1.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'frequency_div:fdp|clk_track'
+Slack : 1.772
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -347.212
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'frequency_div2:fdr|out_clk'
+Slack : -1.285
+TNS   : -1274.720
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'frequency_div:fdp|clk_track'
+Slack : -1.285
+TNS   : -41.120
+
+Type  : Fast 1200mV 0C Model Setup 'frequency_div2:fdr|out_clk'
+Slack : -8.895
+TNS   : -8211.270
+
+Type  : Fast 1200mV 0C Model Setup 'frequency_div:fdp|clk_track'
+Slack : -8.370
+TNS   : -257.887
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -7.482
+TNS   : -237.643
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'frequency_div2:fdr|out_clk'
+Slack : 0.855
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'frequency_div:fdp|clk_track'
+Slack : 0.948
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -151.251
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'frequency_div2:fdr|out_clk'
+Slack : -1.000
+TNS   : -992.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'frequency_div:fdp|clk_track'
+Slack : -1.000
+TNS   : -32.000
+
+------------------------------------------------------------

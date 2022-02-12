@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content-section">
+  <form method="POST">
+      {% csrf_token %}
+      <legend class="border-bottom mb-4">
+          You already been logged out
+      <div class="pt-3">
+        <small class="text-muted">
+              <a class="ml-2" href="{% url 'login' %}">Login again</a>
+         </small>
+    </div>
+  </form>
+</div>
+{% endblock content %}

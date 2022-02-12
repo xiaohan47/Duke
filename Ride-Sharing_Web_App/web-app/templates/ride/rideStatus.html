@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <br/><br/>
+    <h3>Ride Information</h3>
+    <form method="POST">
+        <div>
+            <li>owner: {{ owner }}</li>
+        </div>
+        <div>
+            <li>driver: {{ driver }}</li>
+        </div>
+        <div>
+            {% for sharer in sharers %}
+                <li> sharer: {{ sharer }}</li>
+            {% endfor %}
+        </div>
+        <br/><br/>
+        <p>From: {{ from }}</p>
+        <p>To: {{ dest }}</p>
+        <p>Arrival date and time: {{ arr_date_time }}</p>
+        <p>Current number of passengers: {{ num_passenger }}</p>
+        {% if vehicle_type == '' %}
+            <p>Vehicle Type: is not supplied</p>
+        {% else %}
+            <p>Vehicle Type: {{ vehicle_type }}</p>
+        {% endif %}
+        <p>License Plate Number: {{license_plate_number}}</p>
+        {% if special_vehicle_info == '' %}
+            <p>Special Vehicle info: is not supplied</p>
+        {% else %}
+            <p>Special Vehicle info: {{ special_vehicle_info }}</p>
+        {% endif %}
+
+        {% if share_flag is True %}
+            <p> Shared: Yes</p>
+            {% for sharer in sharers %}
+                <li>Sharer: {{ sharer }}</li>
+            {% endfor %}
+        {% else %}
+            <p> Shared: No</p>
+        {% endif %}
+
+        {% if is_confirmed is True %}
+            <p> Confirmed by Driver: Yes</p>
+                <li>Driver: {{ driver }}</li>
+        {% else %}
+            <p> Confirmed by Driver: No</p>
+        {% endif %}
+
+        {% if is_completed is True %}
+            <p> Completed: Yes</p>
+        {% else %}
+            <p> Completed: No</p>
+        {% endif %}
+
+        {% if is_sharer_joined %}
+            <a class="btn btn-outline-danger" href="{% url 'sharer-quit-ride' ride_id=id %}">Quit ride</a>
+        {% endif %}
+
+        {% if is_sharer_req %}
+            <form method="POST">
+                {% csrf_token %}
+                {{ sharer_req_form|crispy }}
+                <button type="submit">{{ button_text }}</button>
+            </form>
+        {% endif %}
+    </form>
+{% endblock content %}

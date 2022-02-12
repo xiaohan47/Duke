@@ -1,0 +1,131 @@
+
+#include "story.hpp"
+
+#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <deque>
+#include <istream>
+#include <queue>
+#include <sstream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+void story::read_story(char * dirname) {
+  //check if page1 exist
+  string p1 = +dirname;
+  p1.append("/page1.txt");
+  char * p1_name = &p1[0];
+  ifstream page1(p1_name);
+  if (!page1) {
+    cerr << "Cannot open the directory.\n";
+    exit(EXIT_FAILURE);
+  }
+
+  //check all valid file in the directory
+  string dir_name = +dirname;
+  dir_name.append("/page");
+  int i = 1;
+  while (true) {
+    ostringstream stream;
+    stream << i;
+    string is = stream.str();
+    string file_name = dir_name + is + ".txt";
+    char * file_name_char = &file_name[0];
+    ifstream file(file_name_char);
+    if (!file) {
+      break;
+    }
+    else {
+      page new_page;
+      num_pages++;
+      char * file_name_char = &file_name[0];
+      new_page.parse_page(file_name_char);
+      pages.push_back(new_page);
+    }
+    i++;
+  }
+
+  win_lose();
+  story_structure();
+  story_valid();
+}
+
+void story::win_lose() {
+  int w = 0;
+  int l = 0;
+  for (int i = 1; i <= num_pages; i++) {
+    if (pages[i].win == true) {
+      w++;
+    }
+    if (pages[i].lose == true) {
+      l++;
+    }
+  }
+  if (w == 0 || l == 0) {
+    cerr << "A valid story should has at least one WIN and one LOSE.\n";
+    exit(EXIT_FAILURE);
+  }
+}
+
+bool story::find_1D(int f, vector<int> v) {
+  for (vector<int>::iterator it = v.begin(); it != v.end(); ++it) {
+    if ((*it) == f) {
+      return 1;
+    }
+  }
+  return 0;
+}
+
+bool story::find_2D(int f, vector<vector<int> > s) {
+  for (vector<vector<int> >::iterator it1 = s.begin(); it1 != s.end(); ++it1) {
+    for (vector<int>::iterator it2 = (*it1).begin(); it2 != (*it1).end(); ++it2) {
+      if ((*it2) == f) {
+        return 1;
+      }
+    }
+  }
+  return 0;
+}
+void story::story_structure() {
+  //adding page num into a queue following the choice sequence
+  queue<int> q;
+  q.push(1);
+  vector<int> visited;
+  visited.push_back(1);
+
+  while (!q.empty()) {
+    int cur_level = q.size();
+    structure.push_back(vector<int>());
+    for (int i = 0; i < cur_level; i++) {
+      int p = q.front();
+      q.pop();
+      structure.back().push_back(p);
+      //iterate from the choice
+      if (pages[p - 1].num_choice != 0) {
+        for (int j = 0; j < pages[p - 1].num_choice; j++) {
+          if (find_1D(pages[p - 1].choice[j].next_pnum, visited) == 0) {
+            q.push(pages[p - 1].choice[j].next_pnum);
+            visited.push_back(pages[p - 1].choice[j].next_pnum);
+          }
+        }
+      }
+    }
+  }
+}
+
+void story::story_valid() {
+  for (int i = 1; i <= num_pages; i++) {
+    if (find_2D(i, structure) == 0) {
+      cerr << "There are certain pages do not have parent.\n";
+      exit(EXIT_FAILURE);
+    }
+  }
+}
+
+void story::print_story() {
+  pages[0].print_page();
+}

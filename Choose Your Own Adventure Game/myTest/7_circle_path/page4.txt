@@ -1,0 +1,4 @@
+5:goto 5
+2:goto 2
+#
+i am 4

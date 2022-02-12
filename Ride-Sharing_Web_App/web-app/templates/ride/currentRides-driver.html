@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <br/><br/>
+  <h3>Non-Complete Rides(not editable)</h3>
+  {% for ride in rides %}
+    <h5> Ride from {{ ride.from_location }} to {{ ride.dest_location}},at {{ride.arr_date_time}}
+      <a class="ml-2" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a></h5>
+      <a class="ml-2" href="{% url 'complete-drive' ride_id=ride.id %}">Complete</a></h5>
+  {% empty %}
+    <h5> You do not have any non-complete rides.</h5>
+  {% endfor%}
+{% endblock content %}

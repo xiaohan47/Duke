@@ -1,0 +1,4 @@
+7:goto 7
+6:goto 6
+#
+i am 5

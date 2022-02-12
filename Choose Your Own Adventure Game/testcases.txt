@@ -1,0 +1,18 @@
+#error
+cyoa-step1 myTest/page2.txt
+cyoa-step1 myTest/page4.txt
+cyoa-step1 myTest/page5.txt
+cyoa-step2 myTest/1_no_page1
+cyoa-step2 myTest/5_noWIN
+cyoa-step2 myTest/6_noLOSE
+
+#success
+cyoa-step1 myTest/page1.txt
+cyoa-step1 myTest/page3.txt
+cyoa-step2 myTest/2_noconnect_page < myTest/2_noconnect_page/myinput.txt
+cyoa-step2 myTest/4_group_pages < myTest/4_group_pages/input.txt
+cyoa-step3 myTest/4_group_pages
+cyoa-step3 myTest/7_circle_path
+cyoa-step4 myTest/4_group_pages
+cyoa-step4 myTest/7_circle_path
+

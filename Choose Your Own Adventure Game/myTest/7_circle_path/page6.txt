@@ -1,0 +1,7 @@
+3:goto 3
+7:goto 3
+#
+i am 6
+
+dfjh
+

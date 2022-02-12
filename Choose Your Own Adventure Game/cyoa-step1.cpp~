@@ -1,0 +1,15 @@
+#include <cstdlib>
+#include <iostream>
+
+#include "cyoa.hpp"
+
+using namespace std;
+
+int main(int argc, char ** argv) {
+  if (argc != 2) {
+    cerr << "Please only input one page to read.\n";
+    return EXIT_FAILURE;
+  }
+  page p;
+  p.parse_page(argv[1]);
+}

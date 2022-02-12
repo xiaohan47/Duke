@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <br/><br/>
+  <h2>Complete Rides</h2>
+  <br/><br/>
+  <h3>Role: Owner</h3>
+  {% for ride in as_owner %}
+    <h4> Ride from {{ ride.from_location }} to {{ ride.dest_location}},at {{ride.arr_date_time}}
+      <a class="ml-2" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a></h4>
+  {% empty %}
+    <h4> You do not have any complete rides as owner yet.</h4>
+  {% endfor%}
+  <br/><br/>
+  <h3>Role: Sharer</h3>
+  {% for ride in as_sharer %}
+    <h4> Ride from {{ ride.from_location }} to {{ ride.dest_location}},at {{ride.arr_date_time}}
+      <a class="ml-2" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a></h4>
+  {% empty %}
+    <h4> You do not have any complete rides as sharer yet.</h4>
+  {% endfor%}
+  <br/><br/>
+  <h3>Role: Driver</h3>
+  {% for ride in as_driver %}
+    <h4> Ride from {{ ride.from_location }} to {{ ride.dest_location}},at {{ride.arr_date_time}}
+      <a class="ml-2" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a></h4>
+  {% empty %}
+    <h4> You do not have any complete rides as driver yet.</h4>
+  {% endfor%}
+{% endblock content %}

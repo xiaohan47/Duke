@@ -1,0 +1,28 @@
+module exception(result, dest, overflow, Rd, alu_output, opcode, alu_op);
+
+	input [31:0] alu_output;
+	input [4:0] opcode;
+	input [4:0] Rd;
+	input [4:0] alu_op;
+	output [4:0] dest;
+	output [31:0] result;
+
+	assign dest = overflow ? 5'd30 : Rd;
+
+	always @(*) begin
+		if (overflow == 1'b1)
+			case (opcode)
+				5'b00000: begin
+					if (alu_op == 5'b0)
+						assign result = 32'd1;
+					else
+						assign result =  32'd3;
+				end
+				5'b00101: assign result = 32'd2;
+
+			endcase
+		else
+			assign result = alu_output;
+	end
+
+endmodule

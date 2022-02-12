@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="content-section">
+  <form method="POST">
+      {% csrf_token %}
+      <legend class="border-bottom mb-4">
+          Create ride request
+      </legend>
+      {{ form|crispy }}
+      <button class="btn btn-outline-primary mt-2" type="submit">Ride on!</button>
+  </form>
+</div>
+{% endblock content %}

@@ -1,0 +1,28 @@
+#include <cstdio>
+#include <cstdlib>
+#include <deque>
+#include <istream>
+#include <queue>
+#include <vector>
+
+#include "page.hpp"
+
+using namespace std;
+
+class story {
+ private:
+  vector<page> pages;
+  int num_pages;
+  vector<vector<int> > structure;
+
+ public:
+  story() : num_pages(0){};
+  void read_story(char * filename);
+  void story_structure();
+  bool find_queue(int f, queue<int> q);
+  bool find_2D(int f, vector<vector<int> > s);
+  void story_valid();
+  void win_lose();
+  void play_story();
+  ~story(){};
+};

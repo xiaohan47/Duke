@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <br/><br/>
+  <h3>Open Rides</h3>
+    {% for ride in rides %}
+            <h4> Ride from {{ ride.from_location }} to {{ ride.dest_location}},at {{ride.arr_date_time}}
+            {% if user.user_type == 'DR' %}
+                <a class="ml-2" href="{% url 'acc-ride-req' ride_id=ride.id %}">Accept</a>
+            {% else %}
+                <a class="ml-2" href="{% url 'sharer-req-ride-status' ride_id=ride.id %}">Details</a></h4>
+            {% endif %}
+    {% empty %}
+        {% if user.user_type == 'DR' %}
+        <h5>There is no open rides currently match your information.Please modify your information in <a class="ml-2" href="{% url 'profile' %}">Profile</a> or wait for another time.</h5>
+        {% else %}
+        <h5>There is no open rides currently match your information.Please modify your information or wait for another time.</h5>
+        {% endif %}
+    {% endfor %}
+{% endblock content %}

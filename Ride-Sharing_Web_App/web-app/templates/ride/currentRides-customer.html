@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <br/><br/>
+  <h3>Open Rides</h3>
+  {% for ride in o_rides %}
+
+    <div class="card mb-2">
+      <div class="card-body">
+        <h2 class="card-title">From {{ ride.from_location }} to {{ ride.dest_location }}</h2>
+        <h6 class="card-subtitle mb-2 text-muted">Arrival: {{ ride.arr_date_time|date:"d M, H:i" }}</h6>
+        <p class="card-text">Currently {{ ride.max_passenger }} people on board</p>
+
+        {% if ride.owner.username == user.username %}
+          {% if not ride.is_confirm and not ride.is_complete %}
+            <p class="card-text">Not confirmed</p>
+            <a class="btn btn-outline-info" href="{% url 'owner-edit-ride' ride_id=ride.id %}">Edit</a>
+          {% elif not ride.is_complete and ride.is_confirm %}
+            <p class="card-text">Confirmed</p>
+          {% else %}
+            <p class="card-text">Completed</p>
+          {% endif %}
+        {% endif %}
+        <a class="btn btn-outline-secondary" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a>
+
+      </div>
+    </div>
+
+    {% empty %}
+    <h5> You do not have any open ride requests yet.</h5>
+  {% endfor%}
+  <br/><br/>
+  <br/><br/>
+  <h3>Non-Complete Rides(not editable)</h3>
+  {% for ride in nc_rides %}
+    {% comment %} <h5> Ride from {{ ride.from_location }} to {{ ride.dest_location}},at {{ride.arr_date_time}}
+      <a class="ml-2" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a></h5> {% endcomment %}
+
+    <div class="card mb-2">
+      <div class="card-body">
+        <h2 class="card-title">From {{ ride.from_location }} to {{ ride.dest_location }}</h2>
+        <h6 class="card-subtitle mb-2 text-muted">Arrival: {{ ride.arr_date_time|date:"d M, H:i" }}</h6>
+        <p class="card-text">Currently {{ ride.max_passenger }} people on board</p>
+
+        {% if ride.owner.username == user.username %}
+          {% if not ride.is_confirm and not ride.is_complete %}
+            <p class="card-text">Not confirmed</p>
+            <a class="btn btn-outline-info" href="{% url 'owner-edit-ride' ride_id=ride.id %}">Edit</a>
+          {% elif not ride.is_complete and ride.is_confirm %}
+            <p class="card-text">Confirmed</p>
+          {% else %}
+            <p class="card-text">Completed</p>
+          {% endif %}
+        {% endif %}
+        <a class="btn btn-outline-secondary" href="{% url 'ride-status' ride_id=ride.id %}">Detail</a>
+
+      </div>
+    </div>
+  {% empty %}
+    <h5> You do not have any non-complete rides yet.</h5>
+  {% endfor%}
+{% endblock content %}

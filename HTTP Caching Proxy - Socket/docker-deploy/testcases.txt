@@ -1,0 +1,798 @@
+Testcases for my proxy
+----------------------------------------------------------------------
+
+https://www.youtube.com/     CONNECT
+----------------------------------------------------------------------
+0: "CONNECT www.youtube.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:06 2022
+0: Responding " HTTP/1.1 200 OK"
+1: "CONNECT i.ytimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:06 2022
+1: Responding " HTTP/1.1 200 OK"
+2: "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:08 2022
+2: Responding " HTTP/1.1 200 OK"
+3: "CONNECT www.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:08 2022
+3: Responding " HTTP/1.1 200 OK"
+4: "CONNECT www.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:08 2022
+4: Responding " HTTP/1.1 200 OK"
+5: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:08 2022
+5: Responding " HTTP/1.1 200 OK"
+6: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:09 2022
+6: Responding " HTTP/1.1 200 OK"
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+0: "CONNECT www.youtube.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:43 2022
+0: Responding " HTTP/1.1 200 OK"
+1: "CONNECT i.ytimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:43 2022
+1: Responding " HTTP/1.1 200 OK"
+2: "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:44 2022
+2: Responding " HTTP/1.1 200 OK"
+3: "CONNECT www.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:44 2022
+3: Responding " HTTP/1.1 200 OK"
+4: "CONNECT www.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:44 2022
+4: Responding " HTTP/1.1 200 OK"
+5: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:44 2022
+5: Responding " HTTP/1.1 200 OK"
+6: "CONNECT rr1---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+6: Responding " HTTP/1.1 200 OK"
+7: "CONNECT rr1---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+7: Responding " HTTP/1.1 200 OK"
+9: "CONNECT tpc.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+10: "CONNECT rr2---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+11: "CONNECT rr2---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+10: Responding " HTTP/1.1 200 OK"
+9: Responding " HTTP/1.1 200 OK"
+11: Responding " HTTP/1.1 200 OK"
+12: "CONNECT rr3---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+12: Responding " HTTP/1.1 200 OK"
+13: "CONNECT rr3---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:46 2022
+13: Responding " HTTP/1.1 200 OK"
+14: "CONNECT pagead2.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:47 2022
+14: Responding " HTTP/1.1 200 OK"
+8: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+15: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:52 2022
+15: not in cache
+15: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from detectportal.firefox.com
+15: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+15: Responding "HTTP/1.1 200 OK"
+15: cached, expires at Wed Dec 31 18:59:59 1969
+16: "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:53 2022
+16: not in cache
+16: Requesting "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from detectportal.firefox.com
+16: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+16: Responding "HTTP/1.1 200 OK"
+16: cached, expires at Wed Dec 31 18:59:59 1969
+18: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:53 2022
+19: "CONNECT rr3---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:53 2022
+17: "CONNECT rr3---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:53 2022
+19: Responding " HTTP/1.1 200 OK"
+17: Responding " HTTP/1.1 200 OK"
+18: in cache, requires validation
+18: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1"
+20: "CONNECT lh3.googleusercontent.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:53 2022
+20: Responding " HTTP/1.1 200 OK"
+21: "CONNECT rr3---sn-5uaezn6r.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:53 2022
+21: Responding " HTTP/1.1 200 OK"
+22: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:11:58 2022
+22: in cache, requires validation
+22: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1"
+23: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:12:03 2022
+23: in cache, requires validation
+23: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1"
+----------------------------------------------------------------------
+http://httpbin.org/forms/post     POST & GET
+----------------------------------------------------------------------
+0: "GET http://httpbin.org/forms/post HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:14:45 2022
+0: not in cache
+0: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+0: Received "HTTP/1.1 200 OK" from httpbin.org
+0: Responding "HTTP/1.1 200 OK"
+0: cached, expires at Wed Dec 31 18:59:59 1969
+1: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:14:45 2022
+1: Responding " HTTP/1.1 200 OK"
+2: "POST http://httpbin.org/post HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:14:58 2022
+2: Requesting "POST http://httpbin.org/post HTTP/1.1" from httpbin.org
+2: Received "HTTP/1.1 200 OK" from httpbin.org
+2: Responding "HTTP/1.1 200 OK"
+----------------------------------------------------------------------
+http://www.rabihyounes.com/#     GET with cache
+----------------------------------------------------------------------
+0: "GET http://www.rabihyounes.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+0: not in cache
+0: Requesting "GET http://www.rabihyounes.com/ HTTP/1.1" from www.rabihyounes.com
+0: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+0: Responding "HTTP/1.1 200 OK"
+0: cached, expires at Sat Feb 26 05:16:45 2022
+1: "GET http://www.rabihyounes.com/scripts/scriptNewest.js HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+3: "GET http://www.rabihyounes.com/scripts/analytics.js HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+2: "GET http://www.rabihyounes.com/images/Zeus.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+4: "GET http://www.rabihyounes.com/images/Freya.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+5: "GET http://www.rabihyounes.com/images/me.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+1: not in cache
+1: Requesting "GET http://www.rabihyounes.com/scripts/scriptNewest.js HTTP/1.1" from www.rabihyounes.com
+4: not in cache
+4: Requesting "GET http://www.rabihyounes.com/images/Freya.jpg HTTP/1.1" from www.rabihyounes.com
+3: not in cache
+3: Requesting "GET http://www.rabihyounes.com/scripts/analytics.js HTTP/1.1" from www.rabihyounes.com
+2: not in cache
+2: Requesting "GET http://www.rabihyounes.com/images/Zeus.jpg HTTP/1.1" from www.rabihyounes.com
+5: not in cache
+5: Requesting "GET http://www.rabihyounes.com/images/me.jpg HTTP/1.1" from www.rabihyounes.com
+1: Received "HTTP/1.1 304 Not Modified" from www.rabihyounes.com
+1: Responding "HTTP/1.1 304 Not Modified"
+1: cached, expires at Sat Feb 26 09:16:45 2022
+3: Received "HTTP/1.1 304 Not Modified" from www.rabihyounes.com
+3: Responding "HTTP/1.1 304 Not Modified"
+3: cached, expires at Sat Feb 26 09:16:45 2022
+2: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+2: Responding "HTTP/1.1 200 OK"
+4: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+4: Responding "HTTP/1.1 200 OK"
+2: cached, expires at Sun Feb 26 03:16:45 2023
+4: cached, expires at Sun Feb 26 03:16:45 2023
+5: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+5: Responding "HTTP/1.1 200 OK"
+5: cached, expires at Sun Feb 26 03:16:45 2023
+6: "CONNECT www.google-analytics.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+7: "CONNECT platform.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+8: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:45 2022
+6: Responding " HTTP/1.1 200 OK"
+7: Responding " HTTP/1.1 200 OK"
+8: Responding " HTTP/1.1 200 OK"
+7: Tunnel closed
+9: "CONNECT syndication.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:46 2022
+9: Responding " HTTP/1.1 200 OK"
+10: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:46 2022
+10: not in cache
+10: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from detectportal.firefox.com
+10: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+10: Responding "HTTP/1.1 200 OK"
+10: cached, expires at Wed Dec 31 18:59:59 1969
+11: "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:46 2022
+11: not in cache
+11: Requesting "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from detectportal.firefox.com
+11: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+11: Responding "HTTP/1.1 200 OK"
+11: cached, expires at Wed Dec 31 18:59:59 1969
+12: "CONNECT platform.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:46 2022
+12: Responding " HTTP/1.1 200 OK"
+16: "CONNECT ton.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:46 2022
+16: Responding " HTTP/1.1 200 OK"
+17: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:50 2022
+17: Responding " HTTP/1.1 200 OK"
+18: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:50 2022
+19: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:50 2022
+19: Responding " HTTP/1.1 200 OK"
+18: Responding " HTTP/1.1 200 OK"
+22: "GET http://www.rabihyounes.com/images/me.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:51 2022
+23: "GET http://www.rabihyounes.com/images/Zeus.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:51 2022
+24: "GET http://www.rabihyounes.com/images/Freya.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:51 2022
+23: in cache, valid
+23: Responding "HTTP/1.1 200 OK"
+22: in cache, valid
+22: Responding "HTTP/1.1 200 OK"
+24: in cache, valid
+24: Responding "HTTP/1.1 200 OK"
+14: "CONNECT platform.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:51 2022
+25: "GET http://www.rabihyounes.com/images/icon.ico HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:16:51 2022
+14: Responding " HTTP/1.1 200 OK"
+14: Tunnel closed
+25: not in cache
+25: Requesting "GET http://www.rabihyounes.com/images/icon.ico HTTP/1.1" from www.rabihyounes.com
+25: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+25: Responding "HTTP/1.1 200 OK"
+25: cached, expires at Sun Feb 26 03:16:51 2023
+
+----------------------------------------------------------------------
+Multiple webpage opened at same time(close & open)   
+www.macy.com 
+www.youtube.com(with playing vedio)
+https://www.facebook.com/
+http://www.rabihyounes.com/#
+----------------------------------------------------------------------
+0: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:35 2022
+0: Responding " HTTP/1.1 200 OK"
+1: "CONNECT www.youtube.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+2: "CONNECT rr3---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+2: Responding " HTTP/1.1 200 OK"
+1: Responding " HTTP/1.1 200 OK"
+3: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+3: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+3: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+3: Responding "HTTP/1.1 200 OK"
+5: "CONNECT rr3---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+4: "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+5: Responding " HTTP/1.1 200 OK"
+4: Responding " HTTP/1.1 200 OK"
+6: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+7: "CONNECT i.ytimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+7: Responding " HTTP/1.1 200 OK"
+6: Responding " HTTP/1.1 200 OK"
+8: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+8: not in cache
+8: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from detectportal.firefox.com
+8: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+8: Responding "HTTP/1.1 200 OK"
+8: cached, expires at Wed Dec 31 18:59:59 1969
+9: "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:36 2022
+9: not in cache
+9: Requesting "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from detectportal.firefox.com
+9: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+9: Responding "HTTP/1.1 200 OK"
+9: cached, expires at Wed Dec 31 18:59:59 1969
+10: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:37 2022
+10: Responding " HTTP/1.1 200 OK"
+11: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:37 2022
+12: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:37 2022
+11: Responding " HTTP/1.1 200 OK"
+12: Responding " HTTP/1.1 200 OK"
+13: "CONNECT i.ytimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:37 2022
+13: Responding " HTTP/1.1 200 OK"
+14: "CONNECT www.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:37 2022
+14: Responding " HTTP/1.1 200 OK"
+15: "CONNECT www.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+16: "CONNECT www.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+16: Responding " HTTP/1.1 200 OK"
+15: Responding " HTTP/1.1 200 OK"
+16: Tunnel closed
+17: "CONNECT assets.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+19: "CONNECT assets.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+18: "CONNECT assets.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+20: "CONNECT assets.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+21: "CONNECT assets.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+22: "CONNECT tags.tiqcdn.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+23: "CONNECT assets.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+22: Responding " HTTP/1.1 200 OK"
+26: "CONNECT slimages.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+27: "CONNECT slimages.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+25: "CONNECT slimages.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+24: "CONNECT slimages.macysassets.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:39 2022
+20: Responding " HTTP/1.1 200 OK"
+21: Responding " HTTP/1.1 200 OK"
+17: Responding " HTTP/1.1 200 OK"
+23: Responding " HTTP/1.1 200 OK"
+18: Responding " HTTP/1.1 200 OK"
+19: Responding " HTTP/1.1 200 OK"
+27: Responding " HTTP/1.1 200 OK"
+24: Responding " HTTP/1.1 200 OK"
+26: Responding " HTTP/1.1 200 OK"
+25: Responding " HTTP/1.1 200 OK"
+20: Tunnel closed
+19: Tunnel closed
+21: Tunnel closed
+18: Tunnel closed
+27: Tunnel closed
+23: Tunnel closed
+25: Tunnel closed
+26: Tunnel closed
+28: "CONNECT assets.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+28: Responding " HTTP/1.1 200 OK"
+29: "CONNECT assets.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+30: "CONNECT assets.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+31: "CONNECT assets.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+32: "CONNECT assets.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+29: Responding " HTTP/1.1 200 OK"
+30: Responding " HTTP/1.1 200 OK"
+31: Responding " HTTP/1.1 200 OK"
+32: Responding " HTTP/1.1 200 OK"
+33: "CONNECT static.narrativ.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+33: Responding " HTTP/1.1 200 OK"
+34: "CONNECT www.googletagmanager.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+35: "CONNECT js.cnnx.link:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+37: "CONNECT bk8d4asi.micpn.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+36: "CONNECT cdn.pdst.fm:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+34: Responding " HTTP/1.1 200 OK"
+38: "CONNECT cdn.cookielaw.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+38: Responding " HTTP/1.1 200 OK"
+37: Responding " HTTP/1.1 200 OK"
+36: Responding " HTTP/1.1 200 OK"
+35: Responding " HTTP/1.1 200 OK"
+29: Tunnel closed
+30: Tunnel closed
+39: "CONNECT s.pinimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+40: "CONNECT resources.digital-cloud.medallia.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+41: "CONNECT intljs.rmtag.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+32: Tunnel closed
+41: Responding " HTTP/1.1 200 OK"
+40: Responding " HTTP/1.1 200 OK"
+31: Tunnel closed
+42: "CONNECT d1n00d49gkbray.cloudfront.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+43: "CONNECT c.oracleinfinity.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+45: "CONNECT s.yimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+44: "CONNECT bat.bing.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+46: "CONNECT lcx-widgets.bambuser.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+39: Responding " HTTP/1.1 200 OK"
+45: Responding " HTTP/1.1 200 OK"
+44: Responding " HTTP/1.1 200 OK"
+47: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+47: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+42: Responding " HTTP/1.1 200 OK"
+47: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+47: Responding "HTTP/1.1 200 OK"
+48: "POST http://ocsp.pki.goog/s/gts1d4/8bYh8ke1DMg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+46: Responding " HTTP/1.1 200 OK"
+48: Requesting "POST http://ocsp.pki.goog/s/gts1d4/8bYh8ke1DMg HTTP/1.1" from ocsp.pki.goog
+48: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+48: Responding "HTTP/1.1 200 OK"
+50: "POST http://zerossl.ocsp.sectigo.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+49: "CONNECT events.release.narrativ.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:40 2022
+50: Requesting "POST http://zerossl.ocsp.sectigo.com/ HTTP/1.1" from zerossl.ocsp.sectigo.com
+49: Responding " HTTP/1.1 200 OK"
+43: Responding " HTTP/1.1 200 OK"
+50: Received "HTTP/1.1 200 OK" from zerossl.ocsp.sectigo.com
+50: Responding "HTTP/1.1 200 OK"
+51: "CONNECT cdn.cookielaw.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+52: "CONNECT s.yimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+51: Responding " HTTP/1.1 200 OK"
+52: Responding " HTTP/1.1 200 OK"
+53: "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+53: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+54: "CONNECT us-central1-adaptive-growth.cloudfunctions.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+54: Responding " HTTP/1.1 200 OK"
+53: Received "HTTP/1.1 200 OK" from ocsp.sca1b.amazontrust.com
+53: Responding "HTTP/1.1 200 OK"
+56: "CONNECT ct.pinterest.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+57: "CONNECT ct.pinterest.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+58: "CONNECT ct.pinterest.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+59: "CONNECT analytics.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+58: Responding " HTTP/1.1 200 OK"
+56: Responding " HTTP/1.1 200 OK"
+57: Responding " HTTP/1.1 200 OK"
+59: Responding " HTTP/1.1 200 OK"
+60: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+60: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+61: "CONNECT c.oracleinfinity.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+60: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+60: Responding "HTTP/1.1 200 OK"
+61: Responding " HTTP/1.1 200 OK"
+62: "CONNECT cdn.liveshopping.bambuser.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+63: "CONNECT svc-prod-us.liveshopping.bambuser.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+62: Responding " HTTP/1.1 200 OK"
+58: Tunnel closed
+56: Tunnel closed
+63: Responding " HTTP/1.1 200 OK"
+64: "CONNECT dc.oracleinfinity.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+65: "CONNECT stats.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:41 2022
+65: Responding " HTTP/1.1 200 OK"
+67: "CONNECT preview.bambuser.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+66: "CONNECT geolocation.onetrust.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+66: Responding " HTTP/1.1 200 OK"
+64: Responding " HTTP/1.1 200 OK"
+67: Responding " HTTP/1.1 200 OK"
+68: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+68: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+68: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+68: Responding "HTTP/1.1 200 OK"
+69: "CONNECT s.go-mpulse.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+71: "CONNECT dpm.demdex.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+70: "CONNECT 3856256.fls.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+73: "CONNECT edge.fullstory.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+72: "CONNECT resources.xg4ken.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+74: "CONNECT 10289658.fls.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+75: "CONNECT uat1.hlserve.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+76: "CONNECT connect.facebook.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+69: Responding " HTTP/1.1 200 OK"
+77: "CONNECT static.ads-twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+79: "CONNECT s.adroll.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+78: "CONNECT dynamic.criteo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+80: "CONNECT di.rlcdn.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+81: "CONNECT pixel.mathtag.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+73: Responding " HTTP/1.1 200 OK"
+70: Responding " HTTP/1.1 200 OK"
+74: Responding " HTTP/1.1 200 OK"
+75: Responding " HTTP/1.1 200 OK"
+76: Responding " HTTP/1.1 200 OK"
+80: Responding " HTTP/1.1 200 OK"
+82: "CONNECT sp.analytics.yahoo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+78: Responding " HTTP/1.1 200 OK"
+83: "CONNECT us-west-2-archive.bambuser.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+71: Responding " HTTP/1.1 200 OK"
+77: Responding " HTTP/1.1 200 OK"
+82: Responding " HTTP/1.1 200 OK"
+79: Responding " HTTP/1.1 200 OK"
+83: Responding " HTTP/1.1 200 OK"
+81: Responding " HTTP/1.1 200 OK"
+84: "POST http://ocsp.sectigo.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+87: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+86: "POST http://ocsp.pki.goog/s/gts1d4/fY68yIWnLiA HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+88: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+85: "CONNECT collect.tealiumiq.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+84: Requesting "POST http://ocsp.sectigo.com/ HTTP/1.1" from ocsp.sectigo.com
+86: Requesting "POST http://ocsp.pki.goog/s/gts1d4/fY68yIWnLiA HTTP/1.1" from ocsp.pki.goog
+88: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+87: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+72: Responding " HTTP/1.1 200 OK"
+85: Responding " HTTP/1.1 200 OK"
+88: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+88: Responding "HTTP/1.1 200 OK"
+87: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+87: Responding "HTTP/1.1 200 OK"
+86: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+86: Responding "HTTP/1.1 200 OK"
+84: Received "HTTP/1.1 200 OK" from ocsp.sectigo.com
+84: Responding "HTTP/1.1 200 OK"
+89: "POST http://ocsp.godaddy.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+90: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+91: "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+90: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+90: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+90: Responding "HTTP/1.1 200 OK"
+92: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+91: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+89: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+92: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+92: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+92: Responding "HTTP/1.1 200 OK"
+91: Received "HTTP/1.1 200 OK" from ocsp.sca1b.amazontrust.com
+91: Responding "HTTP/1.1 200 OK"
+93: "CONNECT www.facebook.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+93: Responding " HTTP/1.1 200 OK"
+95: "CONNECT s.adroll.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+94: "CONNECT s.adroll.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+96: "CONNECT rs.fullstory.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+95: Responding " HTTP/1.1 200 OK"
+94: Responding " HTTP/1.1 200 OK"
+96: Responding " HTTP/1.1 200 OK"
+97: "CONNECT www.facebook.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:42 2022
+89: Received "HTTP/1.1 200 OK" from ocsp.godaddy.com
+89: Responding "HTTP/1.1 200 OK"
+97: Responding " HTTP/1.1 200 OK"
+98: "CONNECT pixel.mathtag.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+99: "CONNECT macys.sc.omtrdc.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+100: "CONNECT static.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+102: "CONNECT static.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+101: "CONNECT static.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+104: "CONNECT static.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+105: "CONNECT www.hlserve.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+103: "CONNECT d.adroll.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+98: Responding " HTTP/1.1 200 OK"
+101: Responding " HTTP/1.1 200 OK"
+102: Responding " HTTP/1.1 200 OK"
+100: Responding " HTTP/1.1 200 OK"
+104: Responding " HTTP/1.1 200 OK"
+99: Responding " HTTP/1.1 200 OK"
+106: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+105: Responding " HTTP/1.1 200 OK"
+103: Responding " HTTP/1.1 200 OK"
+106: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+106: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+106: Responding "HTTP/1.1 200 OK"
+107: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+108: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+109: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+97: Tunnel closed
+107: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+108: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+109: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+107: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+107: Responding "HTTP/1.1 200 OK"
+108: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+108: Responding "HTTP/1.1 200 OK"
+109: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+109: Responding "HTTP/1.1 200 OK"
+110: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+110: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+111: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+112: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+110: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+110: Responding "HTTP/1.1 200 OK"
+111: Responding " HTTP/1.1 200 OK"
+112: Responding " HTTP/1.1 200 OK"
+113: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+114: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+115: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+116: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+114: Responding " HTTP/1.1 200 OK"
+113: Responding " HTTP/1.1 200 OK"
+115: Responding " HTTP/1.1 200 OK"
+116: Responding " HTTP/1.1 200 OK"
+117: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+118: "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+117: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+102: Tunnel closed
+101: Tunnel closed
+117: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+117: Responding "HTTP/1.1 200 OK"
+118: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+119: "CONNECT static.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+120: "CONNECT static.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+118: Received "HTTP/1.1 200 OK" from ocsp.sca1b.amazontrust.com
+118: Responding "HTTP/1.1 200 OK"
+119: Responding " HTTP/1.1 200 OK"
+120: Responding " HTTP/1.1 200 OK"
+104: Tunnel closed
+121: "CONNECT www.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+121: Responding " HTTP/1.1 200 OK"
+113: Tunnel closed
+112: Tunnel closed
+116: Tunnel closed
+114: Tunnel closed
+115: Tunnel closed
+122: "CONNECT facebook.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+123: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+123: Responding " HTTP/1.1 200 OK"
+122: Responding " HTTP/1.1 200 OK"
+124: "CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+126: "CONNECT recommendationengine.googleapis.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+125: "CONNECT www.google-analytics.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+127: "CONNECT d.agkn.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:43 2022
+124: Responding " HTTP/1.1 200 OK"
+125: Responding " HTTP/1.1 200 OK"
+119: Tunnel closed
+126: Responding " HTTP/1.1 200 OK"
+127: Responding " HTTP/1.1 200 OK"
+128: "CONNECT gum.criteo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+128: Responding " HTTP/1.1 200 OK"
+130: "CONNECT sslwidget.criteo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+131: "CONNECT edge.fullstory.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+132: "CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+129: "CONNECT macys.tt.omtrdc.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+134: "CONNECT c.go-mpulse.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+133: "CONNECT aa.agkn.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+130: Responding " HTTP/1.1 200 OK"
+131: Responding " HTTP/1.1 200 OK"
+132: Responding " HTTP/1.1 200 OK"
+134: Responding " HTTP/1.1 200 OK"
+133: Responding " HTTP/1.1 200 OK"
+135: "CONNECT macyscominc.demdex.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+129: Responding " HTTP/1.1 200 OK"
+136: "CONNECT cm.everesttech.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+135: Responding " HTTP/1.1 200 OK"
+136: Responding " HTTP/1.1 200 OK"
+137: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+137: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+137: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+137: Responding "HTTP/1.1 200 OK"
+133: Tunnel closed
+138: "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+139: "CONNECT adservice.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+139: Responding " HTTP/1.1 200 OK"
+138: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+140: "CONNECT idsync.rlcdn.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+140: Responding " HTTP/1.1 200 OK"
+138: Received "HTTP/1.1 200 OK" from ocsp.sca1b.amazontrust.com
+138: Responding "HTTP/1.1 200 OK"
+141: "CONNECT dnacdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+141: Responding " HTTP/1.1 200 OK"
+142: "CONNECT gem.gbc.criteo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+143: "CONNECT ag.gbc.criteo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+142: Responding " HTTP/1.1 200 OK"
+143: Responding " HTTP/1.1 200 OK"
+144: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+144: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+144: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+144: Responding "HTTP/1.1 200 OK"
+145: "CONNECT bid.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+147: "CONNECT www.pinterest.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+147: Responding " HTTP/1.1 200 OK"
+148: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+145: Responding " HTTP/1.1 200 OK"
+148: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+149: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+148: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+148: Responding "HTTP/1.1 200 OK"
+150: "CONNECT expcore.macys.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:44 2022
+149: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+149: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+149: Responding "HTTP/1.1 200 OK"
+150: Responding " HTTP/1.1 200 OK"
+151: "CONNECT nebula-cdn.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+151: Responding " HTTP/1.1 200 OK"
+64: Tunnel closed
+152: "CONNECT udc-neb.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+153: "CONNECT udc-neb.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+154: "CONNECT udc-neb.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+155: "CONNECT udc-neb.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+157: "CONNECT udc-neb.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+156: "CONNECT udc-neb.kampyle.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+152: Responding " HTTP/1.1 200 OK"
+153: Responding " HTTP/1.1 200 OK"
+155: Responding " HTTP/1.1 200 OK"
+156: Responding " HTTP/1.1 200 OK"
+157: Responding " HTTP/1.1 200 OK"
+154: Responding " HTTP/1.1 200 OK"
+158: "POST http://status.rapidssl.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+159: "POST http://status.rapidssl.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+160: "POST http://status.rapidssl.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+162: "POST http://status.rapidssl.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+161: "POST http://status.rapidssl.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:45 2022
+160: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+158: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+159: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+162: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+161: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+160: Received "HTTP/1.1 200 OK" from status.rapidssl.com
+160: Responding "HTTP/1.1 200 OK"
+158: Received "HTTP/1.1 200 OK" from status.rapidssl.com
+158: Responding "HTTP/1.1 200 OK"
+159: Received "HTTP/1.1 200 OK" from status.rapidssl.com
+159: Responding "HTTP/1.1 200 OK"
+162: Received "HTTP/1.1 200 OK" from status.rapidssl.com
+162: Responding "HTTP/1.1 200 OK"
+161: Received "HTTP/1.1 200 OK" from status.rapidssl.com
+161: Responding "HTTP/1.1 200 OK"
+157: Tunnel closed
+156: Tunnel closed
+155: Tunnel closed
+152: Tunnel closed
+154: Tunnel closed
+163: "CONNECT 08c5e592aba855d3824139aa2bc89e35.safeframe.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+163: Responding " HTTP/1.1 200 OK"
+164: "CONNECT pagead2.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+164: Responding " HTTP/1.1 200 OK"
+165: "CONNECT trial-eum-clientnsv4-s.akamaihd.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+166: "CONNECT trial-eum-clienttons-s.akamaihd.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+165: Responding " HTTP/1.1 200 OK"
+166: Responding " HTTP/1.1 200 OK"
+167: "CONNECT tpc.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+167: Responding " HTTP/1.1 200 OK"
+168: "CONNECT iopv45wmkuqcayqztqla-p8kwo8-dbe1ee487-clientnsv4-s.akamaihd.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+169: "CONNECT 67-159-94-118_s-204-85-32-25_ts-1645845526-clienttons-s.akamaihd.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+168: Responding " HTTP/1.1 200 OK"
+169: Responding " HTTP/1.1 200 OK"
+170: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:46 2022
+170: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+170: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+170: Responding "HTTP/1.1 200 OK"
+55: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+75: Tunnel closed
+171: "CONNECT pagead2.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:47 2022
+171: Responding " HTTP/1.1 200 OK"
+172: "CONNECT pagead2.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:47 2022
+173: "CONNECT tr7.smarterhq.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:47 2022
+172: Responding " HTTP/1.1 200 OK"
+173: Responding " HTTP/1.1 200 OK"
+174: "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:47 2022
+172: Tunnel closed
+174: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+174: Received "HTTP/1.1 200 OK" from ocsp.sca1b.amazontrust.com
+174: Responding "HTTP/1.1 200 OK"
+175: "CONNECT 173bf10a.akstat.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:48 2022
+175: Responding " HTTP/1.1 200 OK"
+146: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+78: Tunnel closed
+100: Tunnel closed
+105: Tunnel closed
+120: Tunnel closed
+130: Tunnel closed
+142: Tunnel closed
+143: Tunnel closed
+176: "GET http://www.rabihyounes.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:55 2022
+176: not in cache
+176: Requesting "GET http://www.rabihyounes.com/ HTTP/1.1" from www.rabihyounes.com
+176: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+176: Responding "HTTP/1.1 200 OK"
+176: cached, expires at Sat Feb 26 05:18:55 2022
+178: "GET http://www.rabihyounes.com/css/cssNewest.css HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+177: "CONNECT use.fontawesome.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+179: "GET http://www.rabihyounes.com/scripts/scriptNewest.js HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+180: "CONNECT fonts.googleapis.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+182: "GET http://www.rabihyounes.com/scripts/analytics.js HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+180: Responding " HTTP/1.1 200 OK"
+177: Responding " HTTP/1.1 200 OK"
+178: not in cache
+178: Requesting "GET http://www.rabihyounes.com/css/cssNewest.css HTTP/1.1" from www.rabihyounes.com
+179: not in cache
+179: Requesting "GET http://www.rabihyounes.com/scripts/scriptNewest.js HTTP/1.1" from www.rabihyounes.com
+182: not in cache
+182: Requesting "GET http://www.rabihyounes.com/scripts/analytics.js HTTP/1.1" from www.rabihyounes.com
+178: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+178: Responding "HTTP/1.1 200 OK"
+178: cached, expires at Mon Mar 28 04:18:56 2022
+182: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+182: Responding "HTTP/1.1 200 OK"
+182: cached, expires at Sat Feb 26 09:18:56 2022
+179: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+179: Responding "HTTP/1.1 200 OK"
+179: cached, expires at Sat Feb 26 09:18:56 2022
+181: "GET http://www.rabihyounes.com/images/Zeus.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+183: "GET http://www.rabihyounes.com/images/Freya.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+184: "GET http://www.rabihyounes.com/images/me.jpg HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+185: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+185: Responding " HTTP/1.1 200 OK"
+181: not in cache
+181: Requesting "GET http://www.rabihyounes.com/images/Zeus.jpg HTTP/1.1" from www.rabihyounes.com
+183: not in cache
+183: Requesting "GET http://www.rabihyounes.com/images/Freya.jpg HTTP/1.1" from www.rabihyounes.com
+184: not in cache
+184: Requesting "GET http://www.rabihyounes.com/images/me.jpg HTTP/1.1" from www.rabihyounes.com
+181: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+181: Responding "HTTP/1.1 200 OK"
+181: cached, expires at Sun Feb 26 03:18:56 2023
+183: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+183: Responding "HTTP/1.1 200 OK"
+183: cached, expires at Sun Feb 26 03:18:56 2023
+184: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+184: Responding "HTTP/1.1 200 OK"
+184: cached, expires at Sun Feb 26 03:18:56 2023
+187: "CONNECT platform.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+186: "GET http://www.rabihyounes.com/images/icon.ico HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:56 2022
+186: not in cache
+186: Requesting "GET http://www.rabihyounes.com/images/icon.ico HTTP/1.1" from www.rabihyounes.com
+187: Responding " HTTP/1.1 200 OK"
+186: Received "HTTP/1.1 200 OK" from www.rabihyounes.com
+186: Responding "HTTP/1.1 200 OK"
+186: cached, expires at Sun Feb 26 03:18:56 2023
+188: "CONNECT syndication.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:57 2022
+188: Responding " HTTP/1.1 200 OK"
+189: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:57 2022
+189: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+189: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+189: Responding "HTTP/1.1 200 OK"
+190: "CONNECT platform.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:57 2022
+190: Responding " HTTP/1.1 200 OK"
+191: "CONNECT cdn.syndication.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+191: Responding " HTTP/1.1 200 OK"
+193: "CONNECT ton.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+193: Responding " HTTP/1.1 200 OK"
+196: "CONNECT pbs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+194: "CONNECT pbs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+198: "CONNECT pbs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+195: "CONNECT pbs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+197: "CONNECT pbs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+199: "CONNECT pbs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+196: Responding " HTTP/1.1 200 OK"
+198: Responding " HTTP/1.1 200 OK"
+194: Responding " HTTP/1.1 200 OK"
+195: Responding " HTTP/1.1 200 OK"
+200: "CONNECT abs.twimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:18:58 2022
+197: Responding " HTTP/1.1 200 OK"
+199: Responding " HTTP/1.1 200 OK"
+200: Responding " HTTP/1.1 200 OK"
+196: Tunnel closed
+199: Tunnel closed
+198: Tunnel closed
+197: Tunnel closed
+195: Tunnel closed
+24: Tunnel closed
+17: Tunnel closed
+22: Tunnel closed
+39: Tunnel closed
+49: Tunnel closed
+57: Tunnel closed
+69: Tunnel closed
+15: Tunnel closed
+192: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+201: "CONNECT t.co:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:19:03 2022
+201: Responding " HTTP/1.1 200 OK"
+202: "CONNECT analytics.twitter.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:19:04 2022
+203: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:19:04 2022
+203: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+203: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+203: Responding "HTTP/1.1 200 OK"
+202: Responding " HTTP/1.1 200 OK"
+204: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:19:04 2022
+204: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+204: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+204: Responding "HTTP/1.1 200 OK"
+28: Tunnel closed
+147: Tunnel closed
+150: Tunnel closed
+205: "CONNECT csm.va.us.criteo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:19:14 2022
+205: Responding " HTTP/1.1 200 OK"
+206: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:19:14 2022
+206: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+206: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+206: Responding "HTTP/1.1 200 OK"
+99: Tunnel closed
+
+----------------------------------------------------------------------
+http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx     Chunk test
+----------------------------------------------------------------------
+
+0: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:22:12 2022
+0: Responding " HTTP/1.1 200 OK"
+1: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:22:12 2022
+2: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:22:12 2022
+1: Responding " HTTP/1.1 200 OK"
+2: Responding " HTTP/1.1 200 OK"
+3: "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:22:13 2022
+3: not in cache
+3: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+3: Received "HTTP/1.1 200 OK" from www.httpwatch.com
+3: Responding "HTTP/1.1 200 OK"
+3: not cacheable because Server response no store
+4: "GET http://www.httpwatch.com/favicon.ico HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 22:22:14 2022
+4: not in cache
+4: Requesting "GET http://www.httpwatch.com/favicon.ico HTTP/1.1" from www.httpwatch.com
+4: Received "HTTP/1.1 200 OK" from www.httpwatch.com
+4: Responding "HTTP/1.1 200 OK"
+

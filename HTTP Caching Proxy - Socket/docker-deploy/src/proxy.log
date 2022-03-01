@@ -1,0 +1,632 @@
+0: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+1: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+1: Responding " HTTP/1.1 200 OK"
+2: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+0: not in cache
+0: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from detectportal.firefox.com
+0: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+0: Responding "HTTP/1.1 200 OK"
+0: cached, expires at Wed Dec 31 18:59:59 1969
+2: Responding " HTTP/1.1 200 OK"
+3: "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+3: not in cache
+3: Requesting "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from detectportal.firefox.com
+3: Received "HTTP/1.1 200 OK" from detectportal.firefox.com
+3: Responding "HTTP/1.1 200 OK"
+3: cached, expires at Wed Dec 31 18:59:59 1969
+2: Tunnel closed
+4: "CONNECT contile.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+7: "CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+5: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+6: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+10: "CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:13 2022
+8: "CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+11: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+9: "CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+12: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+5: Responding " HTTP/1.1 200 OK"
+10: Responding " HTTP/1.1 200 OK"
+11: Responding " HTTP/1.1 200 OK"
+13: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+4: Responding " HTTP/1.1 200 OK"
+8: Responding " HTTP/1.1 200 OK"
+9: Responding " HTTP/1.1 200 OK"
+12: Responding " HTTP/1.1 200 OK"
+14: "CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+6: Responding " HTTP/1.1 200 OK"
+13: Responding " HTTP/1.1 200 OK"
+15: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+14: Responding " HTTP/1.1 200 OK"
+15: Responding " HTTP/1.1 200 OK"
+7: Responding " HTTP/1.1 200 OK"
+17: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+18: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+18: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+17: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+19: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+18: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+18: Responding "HTTP/1.1 200 OK"
+17: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+17: Responding "HTTP/1.1 200 OK"
+19: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+20: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+19: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+19: Responding "HTTP/1.1 200 OK"
+21: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+14: Tunnel closed
+21: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+10: Tunnel closed
+21: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+21: Responding "HTTP/1.1 200 OK"
+20: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+20: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+20: Responding "HTTP/1.1 200 OK"
+22: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+24: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+23: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+22: Responding " HTTP/1.1 200 OK"
+24: Responding " HTTP/1.1 200 OK"
+23: Responding " HTTP/1.1 200 OK"
+15: Tunnel closed
+5: Tunnel closed
+13: Tunnel closed
+12: Tunnel closed
+25: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+26: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+25: Responding " HTTP/1.1 200 OK"
+26: Responding " HTTP/1.1 200 OK"
+24: Tunnel closed
+23: Tunnel closed
+27: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+27: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+27: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+27: Responding "HTTP/1.1 200 OK"
+28: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:14 2022
+28: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+28: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+28: Responding "HTTP/1.1 200 OK"
+26: Tunnel closed
+16: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+25: Tunnel closed
+11: Tunnel closed
+8: Tunnel closed
+7: Tunnel closed
+9: Tunnel closed
+6: Tunnel closed
+1: Tunnel closed
+4: Tunnel closed
+22: Tunnel closed
+29: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:19 2022
+29: Responding " HTTP/1.1 200 OK"
+30: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:19 2022
+31: "CONNECT adhilton.pratt.duke.edu:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:19 2022
+31: Responding " HTTP/1.1 200 OK"
+30: Responding " HTTP/1.1 200 OK"
+32: "POST http://ocsp.usertrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:19 2022
+32: Requesting "POST http://ocsp.usertrust.com/ HTTP/1.1" from ocsp.usertrust.com
+32: Received "HTTP/1.1 200 OK" from ocsp.usertrust.com
+32: Responding "HTTP/1.1 200 OK"
+33: "CONNECT alertbar.oit.duke.edu:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:19 2022
+33: Responding " HTTP/1.1 200 OK"
+34: "POST http://ocsp.usertrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+34: Requesting "POST http://ocsp.usertrust.com/ HTTP/1.1" from ocsp.usertrust.com
+35: "CONNECT fonts.googleapis.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+34: Received "HTTP/1.1 200 OK" from ocsp.usertrust.com
+34: Responding "HTTP/1.1 200 OK"
+35: Responding " HTTP/1.1 200 OK"
+33: Tunnel closed
+36: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+36: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+36: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+36: Responding "HTTP/1.1 200 OK"
+38: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+37: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+39: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+40: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:20 2022
+38: Responding " HTTP/1.1 200 OK"
+39: Responding " HTTP/1.1 200 OK"
+40: Responding " HTTP/1.1 200 OK"
+37: Responding " HTTP/1.1 200 OK"
+42: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+41: "CONNECT fonts.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+41: Responding " HTTP/1.1 200 OK"
+42: Responding " HTTP/1.1 200 OK"
+43: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+43: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+43: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+43: Responding "HTTP/1.1 200 OK"
+44: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+45: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+44: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+45: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+46: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+47: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+48: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+44: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+44: Responding "HTTP/1.1 200 OK"
+45: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+45: Responding "HTTP/1.1 200 OK"
+49: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+46: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+48: Responding " HTTP/1.1 200 OK"
+47: Responding " HTTP/1.1 200 OK"
+49: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+46: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+46: Responding "HTTP/1.1 200 OK"
+49: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+49: Responding "HTTP/1.1 200 OK"
+39: Tunnel closed
+42: Tunnel closed
+41: Tunnel closed
+38: Tunnel closed
+37: Tunnel closed
+47: Tunnel closed
+50: "CONNECT www.facebook.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+50: Responding " HTTP/1.1 200 OK"
+51: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:21 2022
+51: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+51: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+51: Responding "HTTP/1.1 200 OK"
+52: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+54: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+53: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+55: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+52: Responding " HTTP/1.1 200 OK"
+56: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+54: Responding " HTTP/1.1 200 OK"
+53: Responding " HTTP/1.1 200 OK"
+57: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+55: Responding " HTTP/1.1 200 OK"
+56: Responding " HTTP/1.1 200 OK"
+57: Responding " HTTP/1.1 200 OK"
+52: Tunnel closed
+55: Tunnel closed
+53: Tunnel closed
+56: Tunnel closed
+57: Tunnel closed
+58: "CONNECT static.xx.fbcdn.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+59: "CONNECT facebook.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:22 2022
+58: Responding " HTTP/1.1 200 OK"
+59: Responding " HTTP/1.1 200 OK"
+60: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:23 2022
+61: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:23 2022
+60: Responding " HTTP/1.1 200 OK"
+61: Responding " HTTP/1.1 200 OK"
+61: Tunnel closed
+63: "CONNECT getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+63: Responding " HTTP/1.1 200 OK"
+64: "CONNECT cdn.cookielaw.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+65: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+67: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+68: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+66: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+69: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+70: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+71: "CONNECT cdn.cookielaw.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:25 2022
+64: Responding " HTTP/1.1 200 OK"
+71: Responding " HTTP/1.1 200 OK"
+65: Responding " HTTP/1.1 200 OK"
+66: Responding " HTTP/1.1 200 OK"
+68: Responding " HTTP/1.1 200 OK"
+67: Responding " HTTP/1.1 200 OK"
+70: Responding " HTTP/1.1 200 OK"
+69: Responding " HTTP/1.1 200 OK"
+71: Tunnel closed
+72: "CONNECT safebrowsing.googleapis.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+72: Responding " HTTP/1.1 200 OK"
+73: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+73: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+75: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+74: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+76: "CONNECT pocket-syndicated-images.s3.amazonaws.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+77: "CONNECT pocket-syndicated-publisher-logos.s3.amazonaws.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+73: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+73: Responding "HTTP/1.1 200 OK"
+75: Responding " HTTP/1.1 200 OK"
+74: Responding " HTTP/1.1 200 OK"
+76: Responding " HTTP/1.1 200 OK"
+77: Responding " HTTP/1.1 200 OK"
+72: Tunnel closed
+78: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+79: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+80: "CONNECT cdn.cookielaw.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+81: "CONNECT assets.getpocket.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+78: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+79: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+81: Responding " HTTP/1.1 200 OK"
+80: Responding " HTTP/1.1 200 OK"
+78: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+78: Responding "HTTP/1.1 200 OK"
+79: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+79: Responding "HTTP/1.1 200 OK"
+82: "CONNECT o28549.ingest.sentry.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+82: Responding " HTTP/1.1 200 OK"
+83: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:26 2022
+83: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+83: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+83: Responding "HTTP/1.1 200 OK"
+85: "CONNECT pocket-image-cache.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+84: "CONNECT pocket-syndicated-publisher-logos.s3.amazonaws.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+86: "CONNECT pocket-image-cache.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+84: Responding " HTTP/1.1 200 OK"
+87: "CONNECT pocket-syndicated-publisher-logos.s3.amazonaws.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+91: "CONNECT pocket-image-cache.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+90: "CONNECT pocket-image-cache.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+89: "CONNECT pocket-image-cache.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+92: "CONNECT pocket-syndicated-publisher-logos.s3.amazonaws.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+88: "CONNECT pocket-syndicated-publisher-logos.s3.amazonaws.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+87: Responding " HTTP/1.1 200 OK"
+92: Responding " HTTP/1.1 200 OK"
+88: Responding " HTTP/1.1 200 OK"
+90: Responding " HTTP/1.1 200 OK"
+85: Responding " HTTP/1.1 200 OK"
+86: Responding " HTTP/1.1 200 OK"
+91: Responding " HTTP/1.1 200 OK"
+89: Responding " HTTP/1.1 200 OK"
+94: "CONNECT a.omappapi.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+94: Responding " HTTP/1.1 200 OK"
+90: Tunnel closed
+86: Tunnel closed
+89: Tunnel closed
+91: Tunnel closed
+95: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+95: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+95: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+95: Responding "HTTP/1.1 200 OK"
+69: Tunnel closed
+66: Tunnel closed
+96: "CONNECT fdyn.pubwise.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+97: "CONNECT fdyn.pubwise.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+98: "CONNECT etp-experiment-2.dummytracker.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+99: "CONNECT etp-experiment-1.dummytracker.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+100: "CONNECT api.omappapi.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+98: Responding " HTTP/1.1 200 OK"
+99: Responding " HTTP/1.1 200 OK"
+97: Responding " HTTP/1.1 200 OK"
+96: Responding " HTTP/1.1 200 OK"
+101: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+101: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+102: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+101: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+101: Responding "HTTP/1.1 200 OK"
+103: "CONNECT ece.duke.edu:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:27 2022
+103: Responding " HTTP/1.1 200 OK"
+102: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+102: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+102: Responding "HTTP/1.1 200 OK"
+100: Responding " HTTP/1.1 200 OK"
+96: Tunnel closed
+104: "POST http://ocsp.usertrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+104: Requesting "POST http://ocsp.usertrust.com/ HTTP/1.1" from ocsp.usertrust.com
+104: Received "HTTP/1.1 200 OK" from ocsp.usertrust.com
+104: Responding "HTTP/1.1 200 OK"
+107: "CONNECT www.google-analytics.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+105: "CONNECT www.google-analytics.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+106: "CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+105: Responding " HTTP/1.1 200 OK"
+107: Responding " HTTP/1.1 200 OK"
+106: Responding " HTTP/1.1 200 OK"
+31: Tunnel closed
+62: "CONNECT alertbar.oit.duke.edu:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+62: Responding " HTTP/1.1 200 OK"
+108: "CONNECT use.fontawesome.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+109: "CONNECT use.fontawesome.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+110: "CONNECT use.fontawesome.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+112: "CONNECT use.fontawesome.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+111: "CONNECT cse.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+108: Responding " HTTP/1.1 200 OK"
+109: Responding " HTTP/1.1 200 OK"
+110: Responding " HTTP/1.1 200 OK"
+112: Responding " HTTP/1.1 200 OK"
+111: Responding " HTTP/1.1 200 OK"
+113: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+114: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+62: Tunnel closed
+113: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+114: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+113: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+113: Responding "HTTP/1.1 200 OK"
+114: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+114: Responding "HTTP/1.1 200 OK"
+115: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+115: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+115: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+115: Responding "HTTP/1.1 200 OK"
+116: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+116: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+107: Tunnel closed
+116: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+116: Responding "HTTP/1.1 200 OK"
+108: Tunnel closed
+110: Tunnel closed
+112: Tunnel closed
+117: "CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+118: "CONNECT www.youtube.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+117: Responding " HTTP/1.1 200 OK"
+119: "CONNECT pratt.duke.edu:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+119: Responding " HTTP/1.1 200 OK"
+120: "CONNECT use.fontawesome.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+118: Responding " HTTP/1.1 200 OK"
+120: Responding " HTTP/1.1 200 OK"
+121: "CONNECT www.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+122: "CONNECT www.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+123: "CONNECT www.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:28 2022
+121: Responding " HTTP/1.1 200 OK"
+123: Responding " HTTP/1.1 200 OK"
+122: Responding " HTTP/1.1 200 OK"
+124: "POST http://ocsp.usertrust.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:29 2022
+124: Requesting "POST http://ocsp.usertrust.com/ HTTP/1.1" from ocsp.usertrust.com
+125: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:29 2022
+126: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:29 2022
+125: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+126: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+125: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+125: Responding "HTTP/1.1 200 OK"
+124: Received "HTTP/1.1 200 OK" from ocsp.usertrust.com
+124: Responding "HTTP/1.1 200 OK"
+126: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+126: Responding "HTTP/1.1 200 OK"
+127: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:29 2022
+127: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+127: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+127: Responding "HTTP/1.1 200 OK"
+123: Tunnel closed
+121: Tunnel closed
+128: "CONNECT clients1.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:29 2022
+128: Responding " HTTP/1.1 200 OK"
+129: "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+129: Responding " HTTP/1.1 200 OK"
+131: "CONNECT i.ytimg.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+130: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+131: Responding " HTTP/1.1 200 OK"
+130: Responding " HTTP/1.1 200 OK"
+132: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+133: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+132: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+133: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+132: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+132: Responding "HTTP/1.1 200 OK"
+133: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+133: Responding "HTTP/1.1 200 OK"
+134: "CONNECT static.doubleclick.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+135: "CONNECT ib.adnxs.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+134: Responding " HTTP/1.1 200 OK"
+136: "CONNECT fastlane.rubiconproject.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+137: "CONNECT prebid.media.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+138: "CONNECT prebid.a-mo.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+139: "CONNECT ib.adnxs.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+136: Responding " HTTP/1.1 200 OK"
+137: Responding " HTTP/1.1 200 OK"
+138: Responding " HTTP/1.1 200 OK"
+135: Responding " HTTP/1.1 200 OK"
+139: Responding " HTTP/1.1 200 OK"
+140: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+140: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+141: "CONNECT api.pubwise.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+142: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+140: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+140: Responding "HTTP/1.1 200 OK"
+142: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+142: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+142: Responding "HTTP/1.1 200 OK"
+144: "POST http://ocsp.sectigo.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+143: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+141: Responding " HTTP/1.1 200 OK"
+143: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+144: Requesting "POST http://ocsp.sectigo.com/ HTTP/1.1" from ocsp.sectigo.com
+143: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+143: Responding "HTTP/1.1 200 OK"
+144: Received "HTTP/1.1 200 OK" from ocsp.sectigo.com
+144: Responding "HTTP/1.1 200 OK"
+145: "POST http://ocsp.pki.goog/s/gts1d4/K-CuAtN8T9U HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:30 2022
+145: Requesting "POST http://ocsp.pki.goog/s/gts1d4/K-CuAtN8T9U HTTP/1.1" from ocsp.pki.goog
+145: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+145: Responding "HTTP/1.1 200 OK"
+146: "CONNECT adservice.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+146: Responding " HTTP/1.1 200 OK"
+147: "CONNECT pagead2.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+148: "CONNECT 1b0cb237d0e4a3b7d5e7fccf7317efe2.safeframe.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+147: Responding " HTTP/1.1 200 OK"
+148: Responding " HTTP/1.1 200 OK"
+149: "CONNECT cdn.ampproject.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+150: "CONNECT cdn.ampproject.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+151: "CONNECT cdn.ampproject.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+152: "CONNECT cdn.ampproject.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+153: "CONNECT cdn.ampproject.org:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+151: Responding " HTTP/1.1 200 OK"
+150: Responding " HTTP/1.1 200 OK"
+149: Responding " HTTP/1.1 200 OK"
+153: Responding " HTTP/1.1 200 OK"
+152: Responding " HTTP/1.1 200 OK"
+154: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+155: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+154: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+155: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+156: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+158: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+154: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+154: Responding "HTTP/1.1 200 OK"
+157: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+156: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+155: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+155: Responding "HTTP/1.1 200 OK"
+158: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+157: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+156: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+156: Responding "HTTP/1.1 200 OK"
+158: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+158: Responding "HTTP/1.1 200 OK"
+159: "CONNECT tpc.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:31 2022
+157: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+157: Responding "HTTP/1.1 200 OK"
+160: "CONNECT cdn.pubwise.io:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+161: "CONNECT www.googletagservices.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+159: Responding " HTTP/1.1 200 OK"
+161: Responding " HTTP/1.1 200 OK"
+160: Responding " HTTP/1.1 200 OK"
+151: Tunnel closed
+152: Tunnel closed
+153: Tunnel closed
+162: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+162: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+149: Tunnel closed
+93: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+162: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+162: Responding "HTTP/1.1 200 OK"
+163: "CONNECT tpc.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+163: Responding " HTTP/1.1 200 OK"
+165: "CONNECT www.googleapis.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+165: Responding " HTTP/1.1 200 OK"
+166: "CONNECT nym1-ib.adnxs.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+166: Responding " HTTP/1.1 200 OK"
+163: Tunnel closed
+167: "CONNECT ssl.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+167: Responding " HTTP/1.1 200 OK"
+168: "CONNECT cdn.adnxs.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+169: "CONNECT pagead2.googlesyndication.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+169: Responding " HTTP/1.1 200 OK"
+76: Tunnel closed
+168: Responding " HTTP/1.1 200 OK"
+170: "CONNECT www.gstatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:32 2022
+170: Responding " HTTP/1.1 200 OK"
+77: Tunnel closed
+84: Tunnel closed
+87: Tunnel closed
+92: Tunnel closed
+88: Tunnel closed
+119: Tunnel closed
+171: "CONNECT acdn.adnxs.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+172: "CONNECT contextual.media.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+173: "CONNECT acdn.adnxs.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+174: "CONNECT contextual.media.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+172: Responding " HTTP/1.1 200 OK"
+174: Responding " HTTP/1.1 200 OK"
+171: Responding " HTTP/1.1 200 OK"
+173: Responding " HTTP/1.1 200 OK"
+175: "CONNECT pixel.advertising.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+176: "CONNECT pixel.rubiconproject.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+177: "CONNECT ups.analytics.yahoo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+177: Responding " HTTP/1.1 200 OK"
+176: Responding " HTTP/1.1 200 OK"
+175: Responding " HTTP/1.1 200 OK"
+178: "CONNECT adhilton.pratt.duke.edu:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:34 2022
+178: Responding " HTTP/1.1 200 OK"
+179: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:35 2022
+179: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+180: "CONNECT image8.pubmatic.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:35 2022
+174: Tunnel closed
+179: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+179: Responding "HTTP/1.1 200 OK"
+181: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:35 2022
+181: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+181: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+181: Responding "HTTP/1.1 200 OK"
+180: Responding " HTTP/1.1 200 OK"
+182: "POST http://ocsp.digicert.com/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:35 2022
+182: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+182: Received "HTTP/1.1 200 OK" from ocsp.digicert.com
+182: Responding "HTTP/1.1 200 OK"
+103: Tunnel closed
+164: ERROR in proxy RECEIVE, multiple chunks, Client Connection Closed
+183: "CONNECT accounts.google.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:39 2022
+183: Responding " HTTP/1.1 200 OK"
+184: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:39 2022
+184: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+184: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+184: Responding "HTTP/1.1 200 OK"
+178: Tunnel closed
+185: "CONNECT safebrowsing.googleapis.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:41 2022
+185: Responding " HTTP/1.1 200 OK"
+185: Tunnel closed
+186: "CONNECT rr4---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:41 2022
+186: Responding " HTTP/1.1 200 OK"
+187: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:41 2022
+187: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from ocsp.pki.goog
+187: Received "HTTP/1.1 200 OK" from ocsp.pki.goog
+187: Responding "HTTP/1.1 200 OK"
+188: "CONNECT rr4---sn-hjoj-gq0l.googlevideo.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:42 2022
+188: Responding " HTTP/1.1 200 OK"
+189: "CONNECT normandy.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:43 2022
+189: Responding " HTTP/1.1 200 OK"
+190: "CONNECT classify-client.services.mozilla.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:43 2022
+190: Responding " HTTP/1.1 200 OK"
+191: "POST http://r3.o.lencr.org/ HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:43 2022
+191: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from r3.o.lencr.org
+191: Received "HTTP/1.1 200 OK" from r3.o.lencr.org
+191: Responding "HTTP/1.1 200 OK"
+166: Tunnel closed
+192: "CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:44 2022
+192: Responding " HTTP/1.1 200 OK"
+193: "CONNECT privacyportal.onetrust.com:443 HTTP/1.1" from 71.69.186.211 @ Fri Feb 25 23:49:44 2022
+193: Responding " HTTP/1.1 200 OK"
+59: Tunnel closed
+105: Tunnel closed
+177: Tunnel closed
+131: Tunnel closed
+169: Tunnel closed
+186: Tunnel closed
+192: Tunnel closed
+54: Tunnel closed
+118: Tunnel closed
+58: Tunnel closed
+190: Tunnel closed
+180: Tunnel closed
+50: Tunnel closed
+148: Tunnel closed
+175: Tunnel closed
+183: Tunnel closed
+147: Tunnel closed
+134: Tunnel closed
+135: Tunnel closed
+189: Tunnel closed
+122: Tunnel closed
+120: Tunnel closed
+137: Tunnel closed
+136: Tunnel closed
+139: Tunnel closed
+130: Tunnel closed
+129: Tunnel closed
+128: Tunnel closed
+106: Tunnel closed
+160: Tunnel closed
+111: Tunnel closed
+98: Tunnel closed
+85: Tunnel closed
+82: Tunnel closed
+167: Tunnel closed
+97: Tunnel closed
+99: Tunnel closed
+100: Tunnel closed
+81: Tunnel closed
+161: Tunnel closed
+188: Tunnel closed
+67: Tunnel closed
+170: Tunnel closed
+80: Tunnel closed
+168: Tunnel closed
+74: Tunnel closed
+64: Tunnel closed
+65: Tunnel closed
+94: Tunnel closed
+70: Tunnel closed
+75: Tunnel closed
+68: Tunnel closed
+60: Tunnel closed
+48: Tunnel closed
+117: Tunnel closed
+63: Tunnel closed
+40: Tunnel closed
+165: Tunnel closed
+35: Tunnel closed
+109: Tunnel closed
+29: Tunnel closed
+30: Tunnel closed
+176: Tunnel closed
+171: Tunnel closed
+173: Tunnel closed
+150: Tunnel closed
+141: Tunnel closed
+159: Tunnel closed
+146: Tunnel closed
+172: Tunnel closed
+138: Tunnel closed

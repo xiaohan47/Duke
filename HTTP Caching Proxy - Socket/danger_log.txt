@@ -1,0 +1,16 @@
+1. It's a relatively hard job for the proxy to process requests and responses which are too large in size.
+*Solution: Accept the whole request/response using a series of relatively small chunks, with different chunks storing different segments of the request/response respectively.
+
+2. The proxy may possibly crash if the clients sends too many requests in a short time or keep sending requests in a long period.
+*Solution: We used efficient data structures for processing and storing the requests and responses, in order to process large amount of requests and responses in limited time.
+
+3. It's difficult to test the functionality of cache as most of the requests/responses indicate "no-store" in their header.
+*Solution: We simply tested our cache with some responses manually written by us, which follow the HTTP response format.
+
+4. Cache operations may be time-consuming if implemented with naive approaches.
+*Solution: We implemented our cache in a smart way by utilizing two data structures: doubly linked list and hash table. In this way, each of our cache operations would just take O(1) time complexity.
+
+5. Various types of external failures may occur.
+*Solution: We implemented appropriate strategies for handling different types of failures respectively. For instance: (a) When the connection in one thread fails, only that single thread would be terminated, but the whole program would not exit. Namely, the failure in one thread won't affect any other threads. (b) We gracefully handled all the possible failures that may occur in socket operations.
+
+The exception guarantee we make is Basic.
